@@ -1,0 +1,30 @@
+Explicación a un niño de 12 años
+1) Variables
+	1.a) Strings
+	1.b) Funciones (argumentos, `return`)
+	1.c) Declaraciones `if`
+	1.d) Valores booleanos (`true`, `false`)
+
+1)¿Que pasaría si ponemos un papel dentro de un vaso vacío?
+Si, creamos una variable. Dentro del espacio del vaso, guardamos un diminuto papel que ocupara un espacio ahi adentro.
+En programación esto se escribiría asi:
+var vaso = papel;
+La palabra var es una palabra que guardamos para hacer este tipo de acciones, var se llamará vaso, y este tendrá en su interior un papel.
+Asi que cuando llamamos al vaso obtendremos papel como respuesta.
+
+1.a) Los strings son textos, como por ejemplo: "vaso", "Rodrigo", "Je".
+Estos textos se envuelven con comillas para que la maquina interprete que son strings.
+
+2.b)¿Patear un balon es como una función?
+Si, asi como leiste, cuando vamos a patear un balon, primero pensamos como patearlo, con que pierna, con que fuerza, si correr para patearlo o caminar, si patear con el interior del pie o de punta.
+Antes de patear, nuestra mente envia la señal al cuerpo de patear el balon, este recibe la información del cerebro de como hacerlo.
+Como consecuencia se retorna el patear.
+Esto quiere decir que el argumento es como la señal de como hay que hacer la acción y el return es el resultado que vemos a la hora de accionar.
+
+1.c)Si al balon que pateamos le decimos que lo pateamos con la pierna zurda patearemos con mas fuerza, si es con la derecha con menor fuerza.
+Así funcionan los if, si se cumple algo, obtrendemos tanto otro.
+
+1.d)Tomemos como ejemplo que yo se cuanto pesa una regla. Se que pesa 100 gramos.
+Entonces si agarro una balanza y la peso, cuando coincida el peso, se que ese valor que tenia de la regla era verdadero (true).
+Osea que si alguien viene y me dice que pesa 200 gramos sabremos que eso es falso(false).
+Si eso es el valor booleano, con el sabremos si es veradero o falso algo.
