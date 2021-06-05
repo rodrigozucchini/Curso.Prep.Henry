@@ -1,0 +1,23 @@
+Explicación a un niño de 12 años
+
+1) for
+2) && 
+3) || 
+4) !
+
+1) for: utilizamos esto para repetir 1 o mas instrucciones, en un determinado numero de veces.
+Por ejemplo: sabemos que en una caja tenemos 125 juguetes y el niño tiene que sacar uno a la vez, este mecanismo lo repetira 125 veces hasta que este terminado.
+
+2) &&: sería un condicional.
+Por ejemplo: Si mi mama Y mi papa viajan en auto yo tambien viajo, si ninguno de los dos viaja en auto yo no viajo.
+Esto quiere decir que el && sería como un Y.
+Para que se cumpla que yo viaje en auto se tiene que dar que mi mama Y mi papa viajen en auto.
+
+3) ||: sería un condicional.
+Por ejemplo: Puedo ser hincha de River Plate o Boca Juniors. No de los dos.
+O uno o el otro, en este caso, se elije el mejor, River Plate.
+
+4) !: sería otro condicional.
+Este significado es todo lo contrario a tal cosa.
+Por ejemplo: Mi mama me dice que no tiene mascotas. Se que esto es falso y que tiene mascotas.
+Como yo se la verdad y me miente se que me dice todo lo contrario. 
