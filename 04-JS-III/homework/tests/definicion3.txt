@@ -1,0 +1,7 @@
+Explicación a un niño de 12 años
+
+1) Arrays : Vamos a poner el ejemplo de que vamos al supermercado.
+Queremos crear una lista para hacer las compras, queremos tachar los objetos de la lista una vez que ponemos los objetos en la canasta.
+Bueno, los arrays son esa lista de objetos.
+Pero, con varias propiedades podemos sacar, poner, tachar, y volver a crear una lista por completo, ademas de tantas cosas que podemos hacer.
+Sin duda, los arrays nos solucionarán muchas cosas en el mundo de la programación.
