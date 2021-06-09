@@ -1,0 +1,31 @@
+	Explicación a un niño de 12 años
+
+    1) Objetos
+	2) Propiedades
+	3) Métodos
+	4) Bucle `for…in`
+	5) Notación de puntos vs notación de corchetes
+
+    1) Objeto: Vamos a transportarnos del punto A, al B.
+        Para eso necesitaremos un vehiculo, pero... ¿Cuál elegimos?
+        Podemos elegir un automovil, motocicleta, bus, bicicleta, avión etc.
+        Como vemos hay varias maneras de trasportarse, cada una diferente al resto.
+        Estas entidades tienen propiedades diferentes entre sí.
+        Asi podremos decir que "Vehiculo" es el objeto y cada uno de ellos son los "tipos" diferentes de la propiedad transporte.
+
+
+    2) Propiedades: Vamos a una juguetería y queremos comprar varios juguetes para regalar.
+        Para elegir dichos juguetes queremos que tengan los siguientes adjetivos: sean rojos, que sean de goma y que pesen menos de 1kg.
+        Estas son las propiedades, los requisitos que tienen que cumplir en este caso esos juguetes para que los podamos comprar.
+    
+    3)Método: Con estos podemos hacer acciones, por ejemplo: tenemos una maquina que fabrica ruedas, pero cuando llegemos a las 10 ruedas terminadas, queremos que la maquina deje de funcionar. Podemos hacer esto con los métodos.
+
+    4)For: con este método repetiremos una instruccion un numero de veces, el ejemplo anterior es acorde a el FOR.
+    If: con este método podremos decir que si esto se cumple, haremos esto otro. 
+    Por ejemplo: Si Boca Juniors pierde en Madrid, me voy de Argentina. Estamos diciendo que, si pasa esto, se cumplira tal acción.
+
+    5)  Notación de puntos vs notación de corchetes: Con los dos podemos acceder a la propiedad del objeto. La notacion de corchetes permite el uso de caracteres y la notacion de puntos no lo permite, además el uso de corcehtes es más util para el uso de nombre de propiedades que pueden variar.
+    El uso de corchetes permite usar variables, usandolo así la variable debe hacer referencia a un string.
+
+    Si, la notación de puntos es mas concisa, pero como no sabemos cual es la propiedad que queremos acceder usamos el corchete.
+    Por ejemplo: Compramos un automovil y queremos saber sus caracteristicas, podemos ir a Google y de forma rápida acceder a ellas, pero quizas no sabemos que caracteristicas preguntar en Google, asi que agarramos el manual del automovil y lo leemos, las dos son validas dependiendo el porqué.
