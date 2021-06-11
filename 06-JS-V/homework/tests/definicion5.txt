@@ -1,0 +1,19 @@
+Explicación a un niño de 12 años
+
+1) Prototype
+2) _Constructors_ (de Clases)
+
+1) Prototype: Gracias a la aparicion de este mecanismo podemos ahorrarnos memoria en nuestro computador, heredando caracteristicas entre si.
+    Por ejemplo: Queremos fabricar autos de forma masiva, para eso tenemos que informar que tienen que llevar todos los autos.
+    Como fabricaremos marcas diferentes haremos varios autos al día, pero todos los autos tienen cosas en común.
+    Es por esto que establecemos que tienen en comun estos autos de diferentes marcas para ahorrarnos tiempo en el fabricado.
+    Todos los autos tendran 4 ruedas, un volante y 5 puertas.
+    Sabiendo esto, ya sabremos que todas las marcas tendran un diseño con estas caracteristicas.
+    Gracias a saberlo, nos ahorramos de decirle a cada departamento de creación por cada auto que tienen que llevar como base, al hacer algo mas general obtendremos al final del proceso un ahorro de recursos.
+
+2)Constructors (de clases): con este método crearemos e inicializaremos un objeto creado a partir de una clase.
+    Esto quiere decir que en este pondremos las palabras claves de la clase y obtendremos aqui informacion relevante.
+    Por ejemplo: Queremos saber los datos de nuestros amigos del colegio, construimos una clase llamada Amigos.
+    Alli escribiremos la palabra constructor con los datos que queremos saber, como por ejemplo, el nombre, la edad, su estatura, etc.
+    Mas adelante, pasaremos los datos puestos anteriormente.
+    Si, esta es la funcion del constructor, contener las palabras claves de nuestro objeto.
