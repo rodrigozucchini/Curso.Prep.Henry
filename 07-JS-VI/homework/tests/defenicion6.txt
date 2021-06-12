@@ -1,0 +1,7 @@
+Explicación a un niño de 12 años
+1) Funciones Callback: Estas funciones son creadas tener un codigo mas extendible y se ejecutan para tener lugar a otro evento o circunstancia mas adelante.
+    Estas se invocan si ha tenido lugar otra acción claramente definida.
+    Por ejemplo: Queremos apagar la luz de la habitación. Para eso tenemos que oprimir el interruptor de la luz.
+    Sabiendo que si lo oprimo generare la acción de apagar luz.
+    Esta accion que hago de presionar el interruptor me desencadena la accion de luz apagada, quiere decir que se esta cumpliendo la función Callback.
+    La ejecutamos porque sabemos que ocurre despues.
