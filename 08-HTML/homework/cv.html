@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV RODRIGO ZUCCHINI</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+        body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+.home-body{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.grid-container{
+    max-width: 900px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+.facebook-icons {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-image: url(../homework/facebook.png);
+}
+.twitter-icons {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-image: url(../homework/twitter.png);
+}
+.instagram-icons {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-image: url(../homework/instagram.png);
+    color: white;
+}
+.linkedin-icons {
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-image: url(../homework/linkedin.png);
+}
+.blogs-main {
+    display: grid;
+    font-family: 'Roboto Mono';
+}
+.blogs-news-container {
+    background-color:#D5888D;
+    padding: 0 50px 40px;
+}
+.blogs-main-new {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-img-container img {
+    width: 85%;
+}
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #D5888D;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    height: 160px;
+    background-color: #22272d;
+    border-top: 35px solid #D5888D;
+    text-align: center;
+}
+footer p {
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'Roboto mono';
+}
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+.blogpost-img-container img{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+.blogpost-main-container h3 {
+border-bottom: 1px solid  #D5888D;    
+font-family: 'Roboto mono';   
+}
+.blogs-news-img-containers {
+    grid-column: 1;
+}
+.blogs-news-img-containers img {
+    width: 85%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <section class="header-icons-container">
+            <div class="icons">
+                <a href="https://www.facebook.com/zucchini.rodrigo"><span class="facebook-icons"></span></a>
+                <a href="https://twitter.com/RodrigoZucchini"><span class="twitter-icons"></span></a>
+                <a href="https://www.instagram.com/rodrigo.zucchini/"><span class="instagram-icons"></span></a>
+                <a href="https://www.linkedin.com/in/rodrigo-angel-zucchini-109446212/"><span class="linkedin-icons"></span></a>
+            </div>
+        </section>
+    </header>
+    <main class="blogs-main">
+        <section class="blogs-news-container">
+            <div class="grid-container blogs-main-new">
+                <h3>Bienvenido</h3>
+                <div class="blogs-news-img-containers">
+                    <img src="../homework/60681923_360918134552716_1218039688006717753_n(1).jpg" alt="imagen del post">
+                </div>
+            <div class="blogs-news-info-container-perfil">
+                <h2>Hola, me llamo Rodrigo Zucchini</h2>
+                <p>Soy de Buenos Aires, Argentina y tengo 23 años de edad.</p>
+                <p>Mi curiosidad por la educación me llevo a aprender sobre Tecnología, me encanta los deportes y los libros.</p>
+                <p>Soy estudiante en Platzi y proximamente espero aplicar a Henry para desarrollarme como Frontend Developer.</p>
+                <p>Desde que conocí la programación, me encontre no solo con una profesión que me gusta, sino tambien que descubrí un mundo lleno de aprendizaje y excelentes personas.</p>
+                <p>Mi conocimiento actual es de: HTML, CSS, SASS, JAVASCRIPT(BASES), NPM, GITHUB/GIT.</p>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Mis expectativas con Henry son: desarrollar los skills técnicos y las habilidades sociales para trabajar con empresas en el extranjero.
+            Además agregarle la intensidad de trabajo/estudio que Henry dispone para poder crecer más en menos tiempo.
+        </p>
+        <p>Proximamente estudiante en Henry</p>
+    </footer>
+</body>
+</html>
